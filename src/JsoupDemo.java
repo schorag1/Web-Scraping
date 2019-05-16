@@ -25,7 +25,7 @@ public class JsoupDemo {
 				movies.add(movie.getElementsByTag("a").first().text());
 			} 
 			
-			// A separate class which takes care of writing the data into a csv file
+			//A separate class which takes care of writing the data into a csv file
 			GenerateResult generate = new GenerateResult();
 			generate.addDataToCSV(movies);
 		
