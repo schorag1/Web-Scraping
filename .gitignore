@@ -3,3 +3,4 @@
 /.settings
 jsoup-1.12.1.jar
 *.class
+/bin
